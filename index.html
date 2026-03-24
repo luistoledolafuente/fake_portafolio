@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Miguel Toledo | Portfolio</title>
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Manrope:wght@400;500&family=Space+Grotesk:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo">L.M. TOLEDO</h1>
+            <nav class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#sobre-mi">Sobre mí</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <a href="#contacto" class="btn-primary">Hablemos</a>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>
+                LUIS MIGUEL <br>
+                <span>TOLEDO</span>
+            </h2>
+
+            <span class="subtitle">SOFTWARE ENGINEER & FRONTEND DEVELOPER</span>
+
+            <p>
+                Construyo aplicaciones web modernas, escalables y eficientes.
+                Me enfoco en arquitectura, rendimiento y experiencia de usuario.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#proyectos" class="btn-primary">Ver proyectos</a>
+                <a href="#sobre-mi" class="btn-secondary">Sobre mí</a>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="image-placeholder large">TU FOTO</div>
+            <div class="location-card">
+                <small>Ubicado en</small>
+                <strong>Madrid, ES</strong>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="section dark">
+        <div class="section-header">
+            <span class="section-tag">Proyectos Destacados</span>
+            <h3>Construyendo el futuro de la web</h3>
+        </div>
+
+        <article class="project">
+            <div class="image-placeholder">Proyecto 01</div>
+            <div class="project-info">
+                <span class="project-tag">Full Stack Application</span>
+                <h4>NEXUS COMMERCE</h4>
+                <p>
+                    Plataforma e-commerce escalable con arquitectura moderna,
+                    enfoque headless y alto rendimiento.
+                </p>
+                <span class="project-link">Explorar caso →</span>
+            </div>
+        </article>
+
+        <article class="project reverse">
+            <div class="image-placeholder">Proyecto 02</div>
+            <div class="project-info">
+                <span class="project-tag">Frontend Architecture</span>
+                <h4>METRICS DASHBOARD</h4>
+                <p>
+                    Dashboard interactivo en tiempo real para análisis de datos,
+                    enfocado en UX y performance.
+                </p>
+                <span class="project-link">Explorar caso →</span>
+            </div>
+        </article>
+
+        <article class="project">
+            <div class="image-placeholder">Proyecto 03</div>
+            <div class="project-info">
+                <span class="project-tag">Backend API</span>
+                <h4>CLOUD SYNC API</h4>
+                <p>
+                    API robusta y segura para sincronización de datos distribuida
+                    con alta disponibilidad.
+                </p>
+                <span class="project-link">Explorar caso →</span>
+            </div>
+        </article>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobre-mi" class="section">
+        <div class="about-grid">
+            <div class="image-placeholder tall">Perfil</div>
+
+            <div class="about-content">
+                <span class="section-tag secondary">Ingeniería de Software</span>
+                <h3>La lógica detrás de cada sistema</h3>
+
+                <p class="about-lead">
+                    Soy desarrollador de software enfocado en crear aplicaciones
+                    web robustas, escalables y mantenibles.
+                </p>
+
+                <p>
+                    Trabajo tanto en frontend como backend, cuidando el rendimiento,
+                    la seguridad y la experiencia del usuario final.
+                </p>
+
+                <div class="stack">
+                    <span>React / Next.js</span>
+                    <span>TypeScript</span>
+                    <span>Node.js</span>
+                    <span>PostgreSQL / MongoDB</span>
+                    <span>Arquitectura Cloud</span>
+                    <span>APIs REST & GraphQL</span>
+                    <span>Git & CI/CD</span>
+                </div>
+
+                <div class="about-cards">
+                    <div class="card">
+                        <span class="material-symbols-outlined">terminal</span>
+                        <h5>Filosofía de código</h5>
+                        <p>Código claro, mantenible y preparado para escalar.</p>
+                    </div>
+
+                    <div class="card">
+                        <span class="material-symbols-outlined">memory</span>
+                        <h5>Rendimiento</h5>
+                        <p>Cada render y cada consulta importan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section dark">
+        <div class="contact-grid">
+            <div class="contact-info">
+                <span class="section-tag">Consulta</span>
+                <h3>¿Tienes una visión?</h3>
+
+                <p><strong>Email:</strong> hola@luismiguel.digital</p>
+                <p><strong>Ubicación:</strong> Madrid, ES</p>
+                <p><strong>Disponibilidad:</strong> Q4 2024</p>
+            </div>
+
+            <form class="contact-form">
+                <input type="text" placeholder="Tu nombre">
+                <input type="email" placeholder="Correo electrónico">
+                <input type="text" placeholder="Asunto">
+                <textarea placeholder="Cuéntame sobre tu proyecto"></textarea>
+                <button type="submit" class="btn-primary">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2024 Luis Miguel Toledo — Todos los derechos reservados</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
